@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Chuang Zhang
-- 👀 I’m interested in UAV Communication and Space-Air-Ground-Aqua Integrated Network
-- 🌱 I’m currently pursuing phD in Jilin University
+- 👀 I’m interested in UAV Communications and Deep Reinforcement Learning
+- 🌱 I’m currently pursuing PhD in Jilin University
 - 📫 My email: chuangzhang1999@gmail.com
 
 <!---
