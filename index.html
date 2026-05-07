@@ -39,7 +39,7 @@
         Prior to that, I received the B.S. degree from the <a href="https://www.ccst.jlu.edu.cn/">College of Computer Science and Technology</a>,
         <a href="https://www.jlu.edu.cn/">Jilin University</a>, in Jun. 2021. My recent research focuses on
         optimization for secure wireless communication systems, mobile networking and protocols. I have developed
-        a NS3-based simulation platform for underwater acoustic sensor networks named "Aqua-PSim" [<a href="https://smartocean.jlu.edu.cn/info/1023/1096.htm">Project link</a>],
+        a NS3-based simulation platform for underwater acoustic sensor networks named "Aqua-Psim" [<a href="https://smartocean.jlu.edu.cn/info/1023/1096.htm">Project link</a>],
         which provides accurate modeling and simulation of packet transmissions within underwater acoustic sensor networks, and supports users to design and verify their own protocols and algorithms.
         I really enjoy my research and always look for related colaboration, if you are interested to chat with me,
         feel free to reach out via email at <a href="mailto:chuangzhang1999@gmail.com">chuangzhang1999@gmail.com</a>.
@@ -61,25 +61,30 @@
 
               <div class="highlight-content">
                 <p class="highlight-label">Research Direction</p>
-                <h2>UAV Communication Networks, Protocols and Simulation Platform</h2>
+                <h2>Aqua-Psim: A Semi-Physical Simulation Platform Based on NS3 for Underwater Acoustic Network</h2>
                 <p>
-                  Based on Aqua-sim-ng, we have developed a new semi-physical simulation platform called Aqua-Psim, which runs on NS-3.27. Figure 1 shows that our platform consists of hardware and software. In terms of hardware, we use a DSP-based acoustic modulator as an external device [8], which can be replaced according to user requirements. The water tank provides a realistic underwater communication environment. The Linux host represents the communication intermediary between the actual modulator and the simulation nodes. In Aqua-Psim, the modulator obtains the messages sent by the simulation nodes through the socket program. Meanwhile, in the simulation part, a new module called AquaSim-TapBridge creates a virtual device TUN 0 to receive messages from the modulator.
+                  Based on Aqua-sim-ng, we have developed a new semi-physical simulation platform called Aqua-Psim, which runs on NS-3.27. 
+                  Figure 1 shows that our platform consists of hardware and software. In terms of hardware, we use a DSP-based acoustic modulator as an external device, which can be replaced according to user requirements. 
+                  The water tank provides a realistic underwater communication environment. 
+                  The Linux host represents the communication intermediary between the actual modulator and the simulation nodes. 
+                  In Aqua-Psim, the modulator obtains the messages sent by the simulation nodes through the socket program. 
+                  Meanwhile, in the simulation part, a new module called AquaSim-TapBridge creates a virtual device TUN 0 to receive messages from the modulator.
                 </p>
 
                 <div class="highlight-results">
                   <h3>Some Related Papers</h3>
                   <ul class="highlight-paper-list">
                     <li>
-                      <a href="https://arxiv.org/abs/2507.09852">UavNetSim-v1: A Python-based Simulation Platform for UAV Communication Networks</a>
-                      <span>ICCC 2025</span>
+                      <a href="https://ieeexplore.ieee.org/abstract/document/11006829">Aqua-Sim Fourth Generation: Towards General and Intelligent Simulation for Underwater Acoustic Networks</a>
+                      <span>IEEE Internet of Things Journal, 2025</span>
                     </li>
                     <li>
-                      <a href="https://ieeexplore.ieee.org/abstract/document/10938402/">An Accurate IEEE 802.11 Packet Delay Model for Single-hop UAV Networks</a>
-                      <span>IEEE Transactions on Vehicular Technology, 2025</span>
+                      <a href="https://dl.acm.org/doi/10.1145/3491315.3491337">Aqua-Psim: A Semi-Physical Simulation Platform Based on NS3 for Underwater Acoustic Network</a> 
+                      <span>WUWNet 2021</span>
                     </li>
                     <li>
-                      <a href="https://ieeexplore.ieee.org/abstract/document/10539275">Optimized Routing Protocol Through Exploitation of Trajectory Knowledge for UAV Swarms</a>
-                      <span>IEEE Transactions on Vehicular Technology, 2024</span>
+                      <a href="https://dl.acm.org/doi/10.1145/3148675.3148679">Aqua-Sim Next Generation: An NS-3 Based Underwater Sensor Network Simulator</a>
+                      <span>WUWNet 2017</span>
                     </li>
                   </ul>
                 </div>
