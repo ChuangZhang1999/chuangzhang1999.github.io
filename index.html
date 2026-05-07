@@ -34,15 +34,15 @@
     <div class="main-text">
       <h1>About Me</h1>
       <p>
-        I am a year-one PhD student at the <a href="https://www.eee.hku.hk/">Department of Electrical and Computer Engineering (ECE)</a>,
-        <a href="https://www.hku.hk/">The University of Hong Kong</a>, under the supervision of Prof. <a href="https://www.eee.hku.hk/~yuanwei/">Yuanwei Liu</a>.
-        Prior to that, I received the B.Eng. and M.Eng. degrees from the <a href="https://www2.scut.edu.cn/ee/">School of Eletronic and Information Engineering</a>,
-        <a href="https://www.scut.edu.cn/new/">South China University of Technology</a>, in Jun. 2022 and Jun. 2025, respectively. My recent research focuses on
-        performance analysis, evaluation and optimization for wireless communication systems, mobile networking and protocols. I have recently developed
-        a Python-based simulation platform for UAV communication networks named "UavNetSim-v1" [<a href="https://github.com/Zihao-Felix-Zhou/UavNetSim-v1">Project link</a>],
-        which provides accurate modeling and simulation of packet transmissions within mobile networks, and supports users to design and verify their own protocols and algorithms.
+        I am a PhD student nearing graduation at the <a href="https://www.ccst.jlu.edu.cn/">College of Computer Science and Technology</a>,
+        <a href="https://www.jlu.edu.cn/">Jilin University</a>, under the supervision of Prof. <a href="https://ccst.jlu.edu.cn/info/1367/19943.htm">Geng Sun</a>.
+        Prior to that, I received the B.S. degree from the <a href="https://www.ccst.jlu.edu.cn/">College of Computer Science and Technology</a>,
+        <a href="https://www.jlu.edu.cn/">Jilin University</a>, in Jun. 2021. My recent research focuses on
+        optimization for secure wireless communication systems, mobile networking and protocols. I have developed
+        a NS3-based simulation platform for underwater acoustic sensor networks named "Aqua-PSim" [<a href="https://smartocean.jlu.edu.cn/info/1023/1096.htm">Project link</a>],
+        which provides accurate modeling and simulation of packet transmissions within underwater acoustic sensor networks, and supports users to design and verify their own protocols and algorithms.
         I really enjoy my research and always look for related colaboration, if you are interested to chat with me,
-        feel free to reach out via email at <a href="mailto:eezihaozhou@gmail.com">eezihaozhou@gmail.com</a>.
+        feel free to reach out via email at <a href="mailto:chuangzhang1999@gmail.com">chuangzhang1999@gmail.com</a>.
       </p>
     </div>
 
@@ -63,13 +63,7 @@
                 <p class="highlight-label">Research Direction</p>
                 <h2>UAV Communication Networks, Protocols and Simulation Platform</h2>
                 <p>
-                  This project focuses on UAV swarm networks and communication protocols, with the goal of making aerial connectivity more intelligent, 
-                  adaptive, and efficient in highly dynamic environments. I am particularly interested in the modeling, optimization, and protocol design 
-                  of UAV-assisted communication systems, spanning network architecture, resource allocation, mobility-aware transmission, and cross-layer
-                  coordination. More broadly, this research aims to improve the reliability, scalability, and real-time responsiveness of next-generation 
-                  aerial-ground integrated networks. I also developed <a href="https://github.com/Zihao-Felix-Zhou/UavNetSim">UavNetSim</a>, a Python-based 
-                  simulation platform that supports protocol design, performance evaluation, and algorithm verification for UAV communication systems, UavNetSim
-                  has gain more than 300 stars on Github!
+                  Based on Aqua-sim-ng, we have developed a new semi-physical simulation platform called Aqua-Psim, which runs on NS-3.27. Figure 1 shows that our platform consists of hardware and software. In terms of hardware, we use a DSP-based acoustic modulator as an external device [8], which can be replaced according to user requirements. The water tank provides a realistic underwater communication environment. The Linux host represents the communication intermediary between the actual modulator and the simulation nodes. In Aqua-Psim, the modulator obtains the messages sent by the simulation nodes through the socket program. Meanwhile, in the simulation part, a new module called AquaSim-TapBridge creates a virtual device TUN 0 to receive messages from the modulator.
                 </p>
 
                 <div class="highlight-results">
